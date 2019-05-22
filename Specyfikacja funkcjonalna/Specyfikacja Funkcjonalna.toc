@@ -1,7 +1,0 @@
-\contentsline {section}{\numberline {1}Teoretyczny wst\IeC {\k e}p}{2}
-\contentsline {subsection}{\numberline {1.1}Schemat sztucznego neuronu}{2}
-\contentsline {subsection}{\numberline {1.2}Formu\IeC {\l }a opisuj\IeC {\k a}ca dzia\IeC {\l }anie neuronu}{3}
-\contentsline {section}{\numberline {2}Wymagania funkcjonalne}{3}
-\contentsline {section}{\numberline {3}Przyk\IeC {\l }adowy komunikat o b\IeC {\l }\IeC {\k e}dach}{3}
-\contentsline {section}{\numberline {4}Jak korzysta\IeC {\'c} z programu}{4}
-\contentsline {section}{\numberline {5}Testy akceptacyjne}{5}
