@@ -1,0 +1,11 @@
+Programmierung (von altgriechisch πρόγραμμα prógramma „öffentlich und schriftlich bekannt gemachte Nachricht, Befehl“)[1] bezeichnet die Tätigkeit, Computerprogramme zu erstellen. Das ist ein Teilbereich der Softwareentwicklung und umfasst vor allem das Umsetzen (Implementierung) des Softwareentwurfs in den Quellcode einer Programmiersprache. Das Übersetzen dieses Quellcodes in die Maschinensprache erfolgt unter Verwendung eines Compilers.
+
+Computerprogramme werden mit Hilfe einer Programmiersprache formuliert („codiert“). Der Programmierer ‚übersetzt‘ dabei die vorgegebenen Anforderungen (z. B. im Pflichtenheft) und Algorithmen in eine gewünschte Programmiersprache. Zunehmend werden dazu Codegeneratoren verwendet, die zumindest Teile des Programmcodes auf Basis von Modellen (die im Entwurf entstanden sind) automatisch erzeugen.
+
+Beim Programmieren sind wesentliche Aspekte zur Softwarequalität zu berücksichtigen und durch die Gestaltung des Quellcodes umzusetzen. Siehe dazu als Beispiele: Programmierstil, Benutzerfreundlichkeit, Wiederverwendbarkeit/Modularität, Wartbarkeit.
+
+‚Programmieren‘ in erweitertem Sinn umfasst neben der Codeerstellung zahlreiche weitere Tätigkeiten, zum Beispiel das Testen (Entwicklertest) des Programms oder das Erstellen der Programmierdokumentation. Abgrenzen vom Begriff des Programmierens lassen sich andere Tätigkeiten zur Softwareentwicklung wie beispielsweise zum Projektmanagement, zur Anforderungsanalyse oder zur Datenmodellierung.
+
+Je nach angewendetem Vorgehensmodell verlaufen die Aktivitäten zur Programmierung in zeitlich voneinander abgegrenzten Projektphasen, parallel oder iterativ. In der Praxis geschieht das Programmieren häufig in Teamarbeit, mit modernen Entwicklungsmethoden (wie Agile Softwareentwicklung) und Programmierwerkzeugen.
+
+Ähnliche Bedeutungen: Umgangssprachlich bezeichnet man gelegentlich auch das Konfigurieren von Haushalts- oder anderer elektrischer Geräte als „Programmieren“. Auch Organisationseinheiten von Unternehmen, in denen Software entwickelt wird, werden oder wurden zum Teil „Programmierung“ genannt. 

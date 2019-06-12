@@ -1,10 +1,11 @@
 from predict import predict
 import numpy as np
 from maths import derivative_sigmoid
-etta=0.011
+etta=0.001
 def trainingWeights(treningData,answer,numberiteration,weights=None):
     wymiar = treningData[0].size
     if weights is None:
+        np.random.seed(1)
         weights = np.array([2 * np.random.random((wymiar, wymiar)) - 1, 2 * np.random.random((int(wymiar / 2), wymiar)) - 1,
                        2 * np.random.random((int(wymiar / 2))) - 1])
 
@@ -13,7 +14,7 @@ def trainingWeights(treningData,answer,numberiteration,weights=None):
     for iteracja in range(numberiteration):
         for iteratordata in range(len(treningData)):
             value_of_network,neuron_responses=predict(treningData[iteratordata],weights)
-            print(value_of_network)
+            #print(value_of_network)
             error_value_neurons[2]= answer[iteratordata]-value_of_network
 
             for level in range(len(weights)-2,-1,-1):

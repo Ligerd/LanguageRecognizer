@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="389f611d-a7dd-4e3d-af60-aa409d847dd6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/argumentsParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/argumentsParser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defaultFileWeights.npy" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFileWeights.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training.py" beforeDir="false" afterPath="$PROJECT_DIR$/training.py" afterDir="false" />
-    </list>
+    <list default="true" id="389f611d-a7dd-4e3d-af60-aa409d847dd6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,32 +27,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/argumentsParser.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1804">
-              <caret line="82" column="86" selection-start-line="82" selection-start-column="86" selection-end-line="82" selection-end-column="86" />
+            <state relative-caret-position="44">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fileWriter.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="418">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -65,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fileParser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="484">
+              <caret line="24" column="96" selection-start-line="24" selection-start-column="96" selection-end-line="24" selection-end-column="96" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -86,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/training.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="22">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -121,19 +107,21 @@
         <option value="$PROJECT_DIR$/teest.txt" />
         <option value="$PROJECT_DIR$/test1.txt" />
         <option value="$PROJECT_DIR$/s.py" />
-        <option value="$PROJECT_DIR$/fileParser.py" />
         <option value="$PROJECT_DIR$/fileWriter.py" />
         <option value="$PROJECT_DIR$/predict.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/training.py" />
+        <option value="$PROJECT_DIR$/fileParser.py" />
         <option value="$PROJECT_DIR$/argumentsParser.py" />
+        <option value="$PROJECT_DIR$/training.py" />
+        <option value="$PROJECT_DIR$/venv/plot.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/plot.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="25" />
-    <option name="width" value="1853" />
+    <option name="width" value="927" />
     <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -293,11 +281,19 @@
       <workItem from="1557400312468" duration="322000" />
       <workItem from="1557405341276" duration="2629000" />
       <workItem from="1557410634011" duration="767000" />
+      <workItem from="1558558849397" duration="2619000" />
+      <workItem from="1558640913855" duration="3554000" />
+      <workItem from="1558706624763" duration="2093000" />
+      <workItem from="1558799559531" duration="7705000" />
+      <workItem from="1558877443269" duration="5115000" />
+      <workItem from="1558976961605" duration="29000" />
+      <workItem from="1559074345535" duration="171000" />
+      <workItem from="1559374516149" duration="704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148220000" />
+    <option name="totallyTimeSpent" value="170210000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -311,7 +307,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.320974" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17100166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -330,7 +326,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.016602103" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.016602103" />
@@ -367,7 +363,7 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Projekt$main.coverage" NAME="main Coverage Results" MODIFIED="1556863569365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Projekt$main.coverage" NAME="main Coverage Results" MODIFIED="1559374622858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/neuron.py" />
@@ -419,20 +415,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weghtstest.npy" />
-    <entry file="file://$PROJECT_DIR$/teest.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/teest.txt" />
+    <entry file="file://$PROJECT_DIR$/test1.txt" />
     <entry file="file://$PROJECT_DIR$/error.py" />
     <entry file="file://$PROJECT_DIR$/eng.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -444,10 +428,25 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/t.txt" />
-    <entry file="file://$PROJECT_DIR$/fileParser.py">
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/numpy/lib/stride_tricks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="192" selection-start-line="192" selection-end-line="192" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/plot.py" />
+    <entry file="file://$PROJECT_DIR$/fileWriter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileParser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="24" column="96" selection-start-line="24" selection-start-column="96" selection-end-line="24" selection-end-column="96" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -461,19 +460,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fileWriter.py">
+    <entry file="file://$PROJECT_DIR$/training.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        <state relative-caret-position="22">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/training.py">
+    <entry file="file://$PROJECT_DIR$/argumentsParser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="176">
+          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -481,17 +483,17 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/argumentsParser.py">
+    <entry file="file://$PROJECT_DIR$/plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1804">
-          <caret line="82" column="86" selection-start-line="82" selection-start-column="86" selection-end-line="82" selection-end-column="86" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="418">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
         </state>
       </provider>
     </entry>

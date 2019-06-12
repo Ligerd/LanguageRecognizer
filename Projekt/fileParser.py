@@ -21,6 +21,9 @@ def count_letters(filename, case_sensitive=False):
     i=0
 
     for letter in alphabet:
+        if sum(letter_count.values())==0:
+            print("Podany plik o nazwie: "+filename +" nie zawiera liter ze znanego dla programy alfabetu.")
+            exit(0)
         licznik[i]= letter_count[letter]*100/sum(letter_count.values())
         i+=1
     return licznik

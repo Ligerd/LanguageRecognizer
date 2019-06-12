@@ -1,0 +1,138 @@
+eng.txt 245 words 1682 chars 
+engt.txt 629 words 3674 chars 
+engt2.txt 424 words 2459 chars
+engt3.txt 612 words 3422 chars
+germ.txt 230 words 2089 chars
+germt.txt 279 words 1929 chars
+pl.txt 127 words 1079 chars
+plt.txt 289 words 1962 chars 
+
+
+===============================================================================
+Конфигурации при подаче на обучении 
+python3 main.py -t -f engt2.txt  germt.txt engt.txt plt.txt engt3.txt  -a 1 0 1 0 1  -n 10000
+выники: 
+python3 main.py -p -f eng.txt -fw defaultFileWeights.npy
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.9339532356861138
+python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.6248831282303521
+python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.25830605929464906
+
+
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -t -f engt2.txt engt.txt engt3.txt  germt.txt plt.txt   -a 1 1 1 0 0  -n 10000
+Wagi zostały zapisane do domyśłnego pliku o nazwie: defaultFileWeights
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.12025492361011045
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.14168746270455326
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.05994370105855213
+
+
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -t -f engt.txt engt3.txt  germt.txt plt.txt   -a 1 1 0 0  -n 10000
+Wagi zostały zapisane do domyśłnego pliku o nazwie: defaultFileWeights
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.4209267223545508
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.4344273581949036
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.5164856436409242
+
+
+конфигурация 2 2 
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -t -f engt.txt engt2.txt germt.txt plt.txt -a 1 1 0 0  -n 10000
+Wagi zostały zapisane do domyśłnego pliku o nazwie: defaultFileWeights
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.9112144877062417
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.16381331685459055
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.3403855788272833
+
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -t -f engt.txt engt2.txt germt.txt plt.txt -a 1 1 0 0  -n 10000
+Wagi zostały zapisane do domyśłnego pliku o nazwie: defaultFileWeights
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.20069060780477288
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.02347877490376067
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.037121186744740256
+
+
+
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -t -f engt.txt engt2.txt engt3.txt  germt.txt germt2.txt  plt.txt plt2.txt -a 1 1 1 0 0 0 0  -n 5000
+Wagi zostały zapisane do domyśłnego pliku o nazwie: defaultFileWeights
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.8588477929562451
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.044692379419772034
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.4172408360337223
+
+
+
+важно для преподавателя 
+
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -t -f engt.txt engt2.txt engt3.txt  germt.txt germt2.txt  plt.txt plt2.txt -a 1 1 1 0 0 0 0  -n 5000
+Wagi zostały zapisane do domyśłnego pliku o nazwie: defaultFileWeights
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.8605634544927997
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.8105320070729398
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.8287635416224873
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -t -f engt.txt engt2.txt engt3.txt  germt.txt germt2.txt  plt.txt plt2.txt -a 1 1 1 0 0 0 0  -n 5000
+Wagi zostały zapisane do domyśłnego pliku o nazwie: defaultFileWeights
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.8757503753380391
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.21074101919470245
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.11339617675610601
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ 
+
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -t -f engt.txt engt2.txt engt3.txt  germt.txt germt2.txt  plt.txt plt2.txt -a 1 1 1 0 0 0 0  -n 5000
+Wagi zostały zapisane do domyśłnego pliku o nazwie: defaultFileWeights
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.9754318375948369
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.4395111911216905
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.3355828234312314
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ 
+
+
+
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -t -f engt.txt engt2.txt engt3.txt  germt.txt germt2.txt  plt.txt plt2.txt -a 1 1 1 0 0 0 0  -n 5000
+Wagi zostały zapisane do domyśłnego pliku o nazwie: defaultFileWeights
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.6162656385925922
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.6733198895337079
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.22430681142187836
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

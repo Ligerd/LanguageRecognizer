@@ -1,0 +1,174 @@
+statistika
+engt 2001 chars
+engt2 2030 chars
+engt3 2046 chars
+gert 1929 chars
+gert2 2046 chars 
+plt 1962 chars 
+plt2 1951 chars
+=================
+Start from 1000
+
+python3 main.py -t -f engt.txt engt2.txt engt3.txt  germt.txt germt2.txt  plt.txt plt2.txt -a 1 1 1 0 0 0 0  -n 1000
+
+
+python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.4618459943383029
+
+python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.37186954673139055
+
+python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.43512431921533107
+
+2000 все тоже самое
+
+python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.5012884558740485
+
+python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.3850711043504939
+
+python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.4275882426382837
+
+3000
+
+python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.5178312468179649
+
+python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.3861821598977592
+
+python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.4041652565841532
+
+4000
+
+python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.5332588656030836
+
+python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.3903430460540517
+
+python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.38412835705544657
+
+5000
+
+python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.5489479604880872
+
+python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.3953749926181381
+
+python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.3680911064594909
+
+10000
+
+python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.6309628349851992
+
+python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.33671644922622657
+
+python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.32700249839931167
+
+15000
+
+python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.694408737621172
+
+python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.23892731796354072
+
+python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.30189277219113436
+
+20000
+
+python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.7375100029048379
+
+python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.20789921969186861
+
+python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.2791334907288492
+
+25000
+
+python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.77614211028266
+
+python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.20408547742543884
+
+python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.2777109877044174
+
+30000
+
+python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.8025880493206781
+
+python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.20025599282599385
+
+python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.3117944061680057
+
+
+40000
+
+
+python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.7280067905738085
+
+
+python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.13900568307900274
+
+python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.482033104064004
+
+40000
+python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.7280067905738085
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.13900568307900274
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.482033104064004
+
+50000
+ python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.5347544768368314
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f germ.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.05815918977132454
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.7446753375869635
+
+60000
+python3 main.py -p -f eng.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.6887945838252558
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.6822118066501703
+ligerd@Lenovo-Yoga-500-14ISK:~/Projekt/ProjInd2019L_gr1/Projekt$ python3 main.py -p -f pl.txt -fw defaultFileWeights.npy 
+Prawdopodobieństwo tego że to jest język angielski wynosi: 0.6822118066501703
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,3 +1,5 @@
 Programowanie komputerów – proces projektowania, tworzenia, testowania i utrzymywania kodu źródłowego programów komputerowych lub urządzeń mikroprocesorowych (mikrokontrolery). Kod źródłowy jest napisany w języku programowania, z użyciem określonych reguł, może on być modyfikacją istniejącego programu lub czymś zupełnie nowym. Programowanie wymaga dużej wiedzy i doświadczenia w wielu różnych dziedzinach, jak projektowanie aplikacji, algorytmika, struktury danych, języki programowania i narzędzia programistyczne, kompilatory, czy sposób działania podzespołów komputera. W inżynierii oprogramowania programowanie (implementacja) jest tylko jednym z etapów powstawania programu.
+
 Między programistami trwają nieustanne debaty, czy programowanie komputerów jest sztuką, rzemiosłem czy procesem inżynieryjnym. Bezpośrednią formą sztuki w tej dziedzinie jest demoscena.
+
 Inną debatą dotyczącą tego przedmiotu jest stopień, w jakim język programowania wpływa na formę, jaką przybiera oraz jak funkcjonuje końcowy program. Jest ona analogiczna do hipotezy Sapira-Whorfa w lingwistyce. 

@@ -14,12 +14,11 @@ def argument_analysis():
     parser.add_argument('-fw', '--fileweights', nargs=1, help='Plik zawierający wagi sieci neuronowej')
     parser.add_argument('-a','--answers',nargs='+',help='Wymagany odpowiedzi sieci neuronowej')
     parser.add_argument('-n','--iteration',nargs=1,help='Liczba iteraji')
-    #n jako liczba iteracji
     parser.add_argument('-w','--writetofile',nargs=1,help='Zapisanie wag do wybranego pliku')
     res=parser.parse_args()
     if res.traning:
         if res.files is None or res.answers is None or res.iteration is None:
-            print("Parametr -t wymaga dodatkowych parametrów: -f, -a, -i")
+            print("Parametr -t wymaga dodatkowych parametrów: -f, -a, -n")
             print("Wywołaj program z argumentem -h albo --help dla uzystania informacji o argumentachach ;)")
             exit(0)
         for file in res.files:
